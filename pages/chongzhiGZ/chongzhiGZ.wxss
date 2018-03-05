@@ -1,0 +1,42 @@
+.main{
+  width: 100%;
+  height: 100%;
+}
+.tixing{
+  font-size: 28rpx;
+  line-height: 48rpx;
+  color: #666;
+  text-indent: 64rpx;
+  display: block;
+  padding: 0 20rpx;
+}
+.guize{
+  width: 100%;
+  padding: 20rpx 0;
+  font-size: 32rpx;
+  color: #262930;
+  text-align: center;
+  line-height: 32rpx;
+  display: block;
+  font-weight: 700;
+}
+.maining {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.maining text {
+  font-size: 28rpx;
+  line-height: 28rpx;
+  margin-bottom: 20rpx;
+  color: #262930;
+  margin-top: 20rpx;
+  font-weight: 600;
+}
+.maining view{
+  font-size: 28rpx;
+  line-height: 48rpx;
+  color: #666;
+  text-indent: 64rpx;
+  display: block;
+}

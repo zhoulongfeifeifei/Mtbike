@@ -1,0 +1,19 @@
+<view class="homepage">
+    <view class="phone">
+        <text class='phoneLb'>手机号码</text>
+          <input class='phoneTf' bindinput='phoneTfInput' maxlength="11" 
+            type="number" placeholder="填写手机号"/>
+    </view>
+    <view class='getCodeBtn' style='color:{{getCodeBtnProperty.titileColor}}'  bindtap='getCodeAct' 
+        disabled='{{getCodeBtnProperty.disabled}}' 
+        loading='{{getCodeBtnProperty.loading}}' fouce='{{codeTfFocus}}'>
+        {{getCodeBtnProperty.title}}</view>  
+    <view class="yzm">
+        <text class='codeLb'>验证码</text>
+        <input class='codeTf' bindinput='codeTfInput' maxlength="4" type="n umber" 
+          placeholder="输入验证码" focus='{{codeTfFocus}}'/>
+    </view>    
+    <button class='loginBtn' type="primary" bindtap='loginAct' 
+      disabled='{{loginBtnProperty.disabled}}' 
+      loading='{{loginBtnProperty.loading}}'>登录</button>
+</view>

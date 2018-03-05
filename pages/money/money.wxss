@@ -1,0 +1,146 @@
+page{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #eee;
+  position: relative;
+}
+.wallet{
+  width: 100%;
+  height: 100%;
+  font-size: 32rpx;
+  color: #989898;
+  position: relative;
+  overflow: hidden;
+}
+.wallet_top{
+  background: #fff;
+}
+#mobile{
+  margin:6rpx 0;
+}
+.section{
+  padding: 36rpx 5.3%;
+  height: 50rpx;
+}
+.top{
+  height: 50rpx;
+}
+.mx_src{
+  display: flex;
+  align-items: center;
+}
+.mx{
+  float: left;
+}
+.pro{
+  float: right;
+}
+.mxImg{
+  width: 40rpx;
+  height: 50rpx;
+}
+.proImg{
+  width: 40rpx;
+  height: 40rpx;
+}
+.top text{
+  margin-left: 6rpx;
+}
+.remaining{
+  text-align: center;
+}
+.nm{
+  padding: 40rpx 0;
+  font: 30rpx Pingfang SC;
+  color: #999;
+}
+.remaining text{
+  height: 142rpx;
+  font-size: 140rpx;
+  color: #ffd615;
+}
+.remain{
+  font:500 26rpx Pingfang SC;
+  color: #999;
+}
+.recharge{
+   height: 280rpx; 
+  background: #fff;
+  margin-top: 32rpx;
+  padding: 30rpx 5.3%;
+}
+.recharge_text{
+  width: 100%;
+  display: block;
+  text-align: center;
+  font:500 26rpx Pingfang SC;
+  color: #999;
+}
+.jinNum{
+  height: 260rpx;
+  overflow: auto;
+}
+.jine{
+  width:46%;
+  float: left;
+  height: 98rpx;
+  margin-top: 24rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border:4rpx dotted #fcd814;
+  border-radius: 8rpx;
+}
+.jine:nth-of-type(even){
+  margin-left: 3.7%;
+}
+.full{
+  color: #000;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.send{
+  font-size: 26rpx;
+  color: #6b6a6f;
+}
+.tab-bar-active{
+   color:4rpx dotted #fcd814;
+   background: #fcd814;
+}
+.tab-item-active{
+  color: #fff;
+}
+.xieyi{
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 22rpx;
+  margin-top: 60rpx;
+}
+.xieyi navigator{
+  display: inline-block;
+  color: #a0d9ec;
+}
+.chongzhi,.goBack{
+  width: 95%;
+  height: 88rpx;
+  font:40rpx PingFang SC;
+  border-radius: 250rpx;
+  margin:  0 auto;
+  margin-top: 40rpx;
+  background: #fdd915;
+  color: #536170;
+  line-height: 88rpx;
+}
+.tuikuan{
+  padding-top: 54rpx;
+  text-align: center;
+  color: #999;
+  font:26rpx PingFang SC;
+}
+.goBack{
+  margin-top: 30rpx;
+}

@@ -1,0 +1,21 @@
+<view class="main">
+  <map id="myMap" scale="{{scale}}" longitude="{{longitude}}" latitude="{{latitude}}" 
+  bindregionchange="regionchange" show-location/>
+  <view class="Cycling">
+    <view class="cycText">
+      <text class="num">{{time}}</text>
+      <text class="cycTitle">骑行时间</text>
+    </view>
+    <view class="cycText">
+      <text class="num">{{bikeno}}</text>
+      <text class="cycTitle">单车编号</text>
+    </view>
+    <view class="cycText">
+      <text class="num">{{yuan}}</text>
+      <text class="cycTitle">预计消费</text>
+    </view>
+  </view>
+  <view class="ts {{typeS == 1 ? 'show' : 'hide'}}" style='color:"#f00"'>温馨提示：还车时请打开蓝牙，并且先手动关锁</view>
+  <button class="endClc {{typeS == 1 ? 'show' : 'hide'}}" bindtap="endClc" disabled='{{disabled}}'>结束行程</button>
+  <view class='tle' bindtap='tlePhone'>客服电话:4000091008</view>
+</view>

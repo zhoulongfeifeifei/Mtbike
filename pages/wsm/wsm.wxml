@@ -1,0 +1,18 @@
+<view class="main">
+  <view class='ts'>
+    <text class='line'></text><text>车辆编号在车的主干上</text></view>
+  <view class="userName">
+        <text class='nameLb'>姓名</text><text class='line1'></text>
+          <input class='nameTf' bindinput='nameInput' 
+            type="text" placeholder="输入姓名"/>
+    </view>
+    <view class="Identification">
+        <text class='IdentificationLb'>身份证</text><text class='line1'></text>
+          <input class='IdentificationTf' bindinput='IdentificationInput' minlength='15' maxlength="18" 
+            type="text" placeholder="填写身份证号"/>
+    </view>
+    <view class='information'><text class='line'></text><text>以上资料仅用于身份认证，我们不会泄露任何您的个人信息</text></view>
+    <button class='loginBtn' bindtap='loginAct' style='background:{{loginBtnProperty.bc}}'
+      disabled='{{loginBtnProperty.disabled}}' 
+      loading='{{loginBtnProperty.loading}}'>登录</button>  
+</view>

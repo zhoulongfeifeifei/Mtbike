@@ -1,0 +1,8 @@
+<view class="main">
+  <view class="bgIm">
+    <image class="bgImg" src="{{imgs}}"></image>
+  </view>
+  <view class='percent'>{{percent}}%</view>
+  <button class="unlock {{inType == 1 ? 'disColor' : ''}}" bindtap="unlock" loading='{{loading}}'  disabled='{{disabled}}' >确认开锁</button>
+  <view class="foot">请规范用车，用完记得结束行程</view>
+</view>

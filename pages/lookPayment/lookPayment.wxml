@@ -1,0 +1,19 @@
+<view class="main">
+   <view class="pay" style="background-img:{{bg}}">
+      <view class="succePay">
+        <image src="/imgs/yes2.png"></image>
+        <text class="zhifu">支付{{yuan}}</text>
+      </view>
+    <view class="detial">
+        <view class="list">
+          <text>骑行时间</text><text>{{time}}</text>
+        </view>
+        <view class="list">
+          <text>单车编号</text><text>{{bikeno}}</text>
+        </view>
+         <view class="list">
+          <text>钱包余额</text><text>{{yue}}元</text>
+        </view>
+    </view>
+  </view>
+</view>

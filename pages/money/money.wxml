@@ -1,0 +1,25 @@
+<view class="wallet">
+  <view class="wallet_top">
+      <view class="remaining">
+        <view class='nm'>{{name}}({{mobile}})</view>
+        <view class="remain">车费余额(元)</view>
+        <text>{{zye}}</text>
+      </view>
+  </view> 
+  <view class="recharge">
+    <text class="recharge_text">充值金额</text>
+    <view class='jinNum'>
+      <block wx:for="{{recharge}}" wx:key=''>
+      <view id="{{item.id}}" data-index="{{index}}" gd_id="{{item.id}}"
+      class="jine {{index == activeIndex ? 'tab-bar-active' : ''}}" catchtap="changeColor">
+        <text class="full {{index == activeIndex ? 'tab-item-active' : ''}}">{{item.full}}</text>
+        <text class="send">{{item.send}}</text>
+      </view>
+    </block>
+    </view>
+  </view>  
+  <button class="chongzhi" disabled='{{loginBtnProperty.disabled}}'
+   bindtap="btnChong">充值</button>
+   <button class='goBack' bindtap='goBack'>返回首页</button>
+   <view class="tuikuan" bindtap='tk'>如需退押金请前往商城下载名天动力单车APP</view>
+</view>

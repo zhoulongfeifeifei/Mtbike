@@ -1,0 +1,94 @@
+.phone{
+  width: 66%;
+  height: 94rpx;
+  margin:50rpx 0 50rpx 3%;
+  padding-left: 2%;
+  background-color: #f3f3f3;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  font-size: 32rpx;
+}
+.phoneLb {
+  flex: 1;
+    font-weight:bold;
+    font-family: Times New Roman;
+}
+.phoneTf{
+  flex: 2;
+  margin-left: 20rpx; 
+}
+
+.getCodeBtn {
+    width: 26.7%; 
+    height: 94rpx;
+    float: left; 
+    background-color: #cccccc; 
+    color: #fff;
+    line-height: 94rpx; 
+    text-align: center;
+    font-size: 32rpx;
+    border-top-right-radius: 10rpx;
+    border-bottom-right-radius: 10rpx;
+    margin: 50rpx 0;
+}
+.yzm{
+    width: 92%;
+    height: 94rpx;
+    margin: 0 auto;
+    padding-left: 2%;
+    background-color: #f3f3f3;
+    border-radius: 10rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32rpx;
+}
+.codeLb {
+  flex: 1;
+    font-weight:bold;
+    font-family: Times New Roman;
+}
+
+.codeTf {
+  flex: 3;
+   padding-left: 20rpx;
+}
+
+.loginBtn {
+    position: absolute;
+    left: 40rpx;
+    top: 330rpx;
+    width: 670rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.attentionLb {
+    position: absolute;
+    right: 312rpx;
+    top: 410rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 24rpx;
+    color: #6D6D6D
+}
+
+.explainBtn {
+    position: absolute;
+    left: 438rpx;
+    top: 410rpx;
+    height: 80rpx;
+    color: #34B5E3;
+    line-height: 80rpx;
+    font-size: 24rpx;
+}
+/* .player{
+  margin-top: 350rpx;
+  display: block;
+  width: 100%;
+  height: 200px;
+} */

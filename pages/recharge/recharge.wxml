@@ -1,0 +1,17 @@
+<view class="main">
+  <view data-index="{{type1}}" bindtap="choose"
+  class="pledge changeBg" >
+    <text class="yajin">单车押金</text>
+    <text class="jine">{{yajin}}</text>
+  </view> 
+  <view class="paymethod">
+      <text>支付方式</text>
+      <view class="wxPay">
+        <view class="payLeft"><image class="weixin" 
+        src="../../imgs/wx.png"></image>微信支付</view>
+        <view class="payRight">
+        <image src="../../imgs/yes.png"></image></view>
+      </view>
+  </view>
+  <button class="payment" bindtap="payment" disabled="{{payment.disabled}}">支付</button> 
+</view>

@@ -1,0 +1,49 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: #262930;
+}
+.bgIm{
+   width: 100%;
+   height: 55%;
+   position: relative;
+   margin-top: 200rpx;
+}
+.percent{
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  color: #fff;
+  text-align: center;
+}
+.bgImg{
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
+.unlock{
+  width: 92%;
+  height: 90rpx;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  background-color: #fcd814;
+  color: #fff;
+  text-align: center;
+  line-height: 90rpx;
+  border-radius: 200rpx;
+}
+.disColor{
+   background-color: #fcd814;
+}
+.foot{
+  width: 100%;
+  height: 32rpx;
+  font-size: 24rpx;
+  color: #8f8f90;
+  line-height: 32rpx;
+  text-align: center;
+  margin-top: 40rpx;
+}

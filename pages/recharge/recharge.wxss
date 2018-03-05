@@ -1,0 +1,80 @@
+.main{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.pledge{
+  width: 88%;
+  height: 90rpx;
+  padding: 0 34rpx;
+  background: #f3f3f3;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  margin-top:96rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 26rpx;
+  color: #996a18;
+}
+.yajin{
+  color: #26292e;
+}
+.changeBg{
+  background: #fcd814;
+}
+.changeCo{
+  color: #996a18;
+}
+.paymethod{
+  width: 88%;
+  height: auto;
+  font-size: 26rpx;
+  color: #26292e;
+  margin: 0 auto;
+  border-bottom: 1px solid #f3f3f3;
+}
+.paymethod text{
+  display: block;
+  margin-top: 100rpx;
+}
+.wxPay{
+  width: 100%;
+  height: 128rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.wxPay image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.payLeft{
+  display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.weixin{
+  padding-right:24rpx;
+}
+.tyj{
+  width: 90%;
+  height: 22rpx;
+  color: #999999;
+  font-size: 22rpx;
+  margin: 30rpx auto;
+}
+.payment{
+  width: 88%;
+  height: 90rpx;
+  margin: 240rpx auto;
+  font-size: 34rpx;
+  text-align: center;
+  line-height: 90rpx;
+  color: #26292e;
+  background: #fcd814;
+  border-radius: 100rpx;
+}

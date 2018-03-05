@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/unlocking/unlocking",
+    "pages/money/money",
+    "pages/recharge/recharge",
+    "pages/Cycling/Cycling",
+    "pages/wsm/wsm",
+    "pages/lookPayment/lookPayment",
+    "pages/login/login",
+    "pages/chongzhiGZ/chongzhiGZ",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

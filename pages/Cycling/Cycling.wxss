@@ -1,0 +1,80 @@
+.main{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#myMap{
+  width: 100%;
+  height: 50vh;
+}
+.Cycling{
+  width: 90%;
+  margin: 0 auto;
+  height: 180rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+.cycText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.num{
+  color: #222327;
+  font-size: 26rpx;
+  margin-bottom: 22rpx;
+}
+.cycTitle{
+  color: #989898;
+  font-size: 24rpx;
+}
+.ts{
+  width: 90%;
+  height: 90rpx;
+  margin: 0 auto;
+  line-height: 90rpx;
+  font-size: 24rpx;
+  color: #989898;
+}
+.endClc{
+  width: 90%;
+  height: 90rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #292a24;
+  background: #fcd814;
+  border-radius: 100rpx;
+}
+.insurance{
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 22rpx;
+}
+.insurance navigator{
+  display: inline-block;
+  color: #ff5170;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.tle{
+  width: 92%;
+  color: #222327;
+  margin: 40rpx auto;
+  font-size: 26rpx;
+}
+.tle{
+  color: blue
+}
